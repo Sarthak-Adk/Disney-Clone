@@ -22,7 +22,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-slate-900 px-4 py-3 flex items-center justify-between w-full">
+    <header className=" px-4 py-3 flex items-center justify-between w-full">
       {/* Logo */}
       <img src={logo} className="w-[80px] md:w-[115px] object-cover" alt="logo" />
 
