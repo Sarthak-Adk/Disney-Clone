@@ -5,6 +5,8 @@ import GenreMovieList from "../GenreMovieList";
 
 
 
+
+
 const Home = () => {
   return (
     <div>
@@ -23,8 +25,8 @@ const Home = () => {
           Discover a world of entertainment.
         </p>
         </div>
-
         <GenreMovieList />
+      
     </div>
   );
 };
