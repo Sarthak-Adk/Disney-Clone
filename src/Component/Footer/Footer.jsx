@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   FaFacebookF,
   FaTwitter,
@@ -18,25 +19,25 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-2">Company</h3>
             <ul className="space-y-1">
-              <li><a href="#" className="hover:text-white">About Us</a></li>
-              <li><a href="#" className="hover:text-white">Careers</a></li>
-              <li><a href="#" className="hover:text-white">Help</a></li>
+              <li><Link to=""className="hover:text-white">About Us</Link></li>
+              <li><Link to="" className="hover:text-white">Careers</Link></li>
+              <li><Link to=""className="hover:text-white">Help</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-2">View</h3>
             <ul className="space-y-1">
-              <li><a href="#" className="hover:text-white">Movies</a></li>
-              <li><a href="#" className="hover:text-white">TV Shows</a></li>
-              <li><a href="#" className="hover:text-white">Originals</a></li>
+              <li><Link to=""className="hover:text-white">Movies</Link></li>
+              <li><Link to=""className="hover:text-white">TV Shows</Link></li>
+              <li><Link to=""className="hover:text-white">Originals</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-2">Legal</h3>
             <ul className="space-y-1">
-              <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white">Terms of Use</a></li>
-              <li><a href="#" className="hover:text-white">Cookie Settings</a></li>
+              <li><Link to="" className="hover:text-white">Privacy Policy</Link></li>
+              <li><Link to="" className="hover:text-white">Terms of Use</Link></li>
+              <li><Link to="" className="hover:text-white">Cookie Settings</Link></li>
             </ul>
           </div>
         </div>
