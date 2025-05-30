@@ -2,10 +2,10 @@ import { Route, Routes } from "react-router-dom";
 import Home from './Component/Home/Home';
 import Header from "./Component/Header/Header";
 import Footer from "./Component/Footer/Footer";
-import Search from "./Component/Search";
-import WatchList from "./Component/WatchList";
-import Originals from "./Component/Originals";
-import Movies from "./Component/Movies";
+import Search from "./Component/Pages/Search";
+import WatchList from "./Component/Pages/WatchList";
+import Originals from "./Component/Pages/Originals";
+import Movies from "./Component/Pages/Movies";
 
 function App() {
   return (
