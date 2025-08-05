@@ -1,8 +1,39 @@
-# React + Vite
+# 📺 Disney+ Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured streaming app clone of Disney+, built with React.js, Tailwind CSS, and Firebase. This project mimics the core features of Disney+ including user authentication, media browsing, and dynamic content rendering.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 🚀 Features
+
+- 🔐 User Authentication (Signup/Login/Logout)
+- 🎬 Dynamic Movie and Show Listings
+- 🧠 Firebase Firestore Integration
+- 🌈 Tailwind CSS for modern UI design
+- 📁 Responsive Design (Mobile, Tablet, Desktop)
+- 📽️ Video previews (optional)
+- 🧭 Smooth navigation with React Router
+- ❤️ Add to Favorites / Watchlist (optional)
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **Backend/DB:** Firebase Authentication & Firestore
+- **Deployment:** Vercel / Firebase Hosting
+
+## 📸 Screenshots
+
+| Home Page | Detail Page | Login Page |
+|-----------|-------------|------------|
+
+
+## 🔧 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/disney-clone.git
+cd disney-clone
+npm install
+npm i react-icons
+npm run dev
